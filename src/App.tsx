@@ -28,7 +28,6 @@ function App() {
     const clean=()=>{
         setShow([])
     }
-
     return (
         <div className="App">
             <Button name={'Show me'} callBack={useShowUP}/>
